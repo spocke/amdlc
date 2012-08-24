@@ -1,6 +1,6 @@
 {
     "name": "amdlc",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "AMD Library Compiler",
     "author": "Johan Sörlin <spocke@moxiecode.com>",
     "bugs": { "url" : "http://github.com/spocke/amdlc/issues" },
@@ -13,11 +13,11 @@
         "amd",
         "cli"
     ],
-    "main": "./lib/cli",
-    "bin" : {"bin/amdlc": "./lib/cli.js"},
+    "main": "./lib/AmdCompiler",
+    "bin" : {"amdlc": "./bin/amdlc"},
     "dependencies": {
         "glob": "3.1.12",
-        "uglifyjs": "1.3.3"
+        "uglify-js": "1.3.3"
     },
     "preferGlobal": "true",
     "licenses":[
