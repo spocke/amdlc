@@ -1,2 +1,2 @@
 #!/bin/sh
-node lib/cli.js "$@"
+node $(dirname "$0")/../lib/cli.js "$@"
