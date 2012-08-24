@@ -1,5 +1,5 @@
-define("mylib.App", ["mylib.auth.User"], function(User) {
+define("mylib/App", ["mylib/auth/User"], function(User) {
 	return {
-		user: new User()
+		user: new User("UserName")
 	};
 });

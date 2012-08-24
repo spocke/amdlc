@@ -1,4 +1,4 @@
-define("mylib.auth.Group", [], function() {
+define("mylib/auth/Group", [], function() {
 	return function(name) {
 		this.name = name;
 	};
