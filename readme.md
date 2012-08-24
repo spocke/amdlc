@@ -5,6 +5,10 @@ into a standalone library file with all public modules exposed into the global n
 one minified version using Uglify-js, one inline source version and one development version that loads the
 individual module files.
 
+Installation
+-------------
+npm install -g amdlc
+
 Command line usage
 -------------------
     Usage: amdlc [options] <input file/glob pattern> <output file>
@@ -21,6 +25,21 @@ Example with single file entry point
 Example with glob pattern
 --------------------------
     amdlc --basedir example/src example/src/**/*.js example/out/App.js
+
+Example of usage from Node.js
+------------------------------
+    var amdlc = require("amdlc");
+
+    amdlc.compile("src/**/*.js", {
+    	baseDir: "src",
+    	compress: true,
+    	expose: "public",
+    	excludeRootNamespaceFromPath: true,
+    	verbose: true,
+    	outputSource: "out/lib.js",
+    	outputMinified: "out/lib.min.js",
+    	outputDev: "out/lib.dev.js"
+    });
 
 Todo
 -----
