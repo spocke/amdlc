@@ -7,7 +7,7 @@ individual module files.
 
 Installation
 -------------
-npm install -g amdlc
+    npm install -g amdlc
 
 Command line usage
 -------------------
