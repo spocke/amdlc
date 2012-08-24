@@ -44,3 +44,4 @@ Example of usage from Node.js
 Todo
 -----
  * Implement anonymous modules.
+ * Implement support for relative modules like ./MyModule
