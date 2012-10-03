@@ -1,9 +1,13 @@
 amdlc
 ======
-This is a Node.js AMD Library Compiler. It enables you to write code in an AMD style and compile the modules
-into a standalone library file with all public modules exposed into the global namespace. The result is three files
-one minified version using Uglify-js, one inline source version and one development version that loads the
-individual module files.
+This is a Node.js AMD Library Compiler. It enables you to write code in an the AMD style and compile the modules
+into a standalone library file with all public modules exposed into the global namespace this is the opposite to
+application specific AMD module loaders like RequireJS.
+
+When compiling AMD projects using this compileer you get three files:
+ * Inline minified file using Uglify-js
+ * Inline source file
+ * Development file that loads the modules synchronous (debug)
 
 Installation
 -------------
