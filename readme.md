@@ -34,7 +34,8 @@ Example of usage from Node.js
 ------------------------------
     var amdlc = require("amdlc");
 
-    amdlc.compile("src/**/*.js", {
+    amdlc.compile({
+        from: "src/**/*.js",
     	baseDir: "src",
     	compress: true,
     	expose: "public",
