@@ -1,6 +1,6 @@
 {
     "name": "amdlc",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "AMD Library Compiler",
     "author": "Johan Sörlin <spocke@moxiecode.com>",
     "bugs": { "url" : "http://github.com/spocke/amdlc/issues" },
