@@ -16,8 +16,8 @@
     "main": "./lib/AmdCompiler",
     "bin" : {"amdlc": "./bin/amdlc"},
     "dependencies": {
-        "glob": ">= 3.1.12",
-        "uglify-js": ">= 2.0.0"
+        "glob": "7.1.1",
+        "uglify-js": "2.7.5"
     },
     "licenses":[
         {
